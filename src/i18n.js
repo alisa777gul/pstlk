@@ -21,7 +21,7 @@ export const translations = {
     about: {
       kicker: "O nás",
       title: "Pastelové miesto pre malých objaviteľov & oddýchnutých rodičov.",
-      p1: "Pastelkovo je viac než len detský kútik. Je to malý svet plný farieb, kde sa deti môžu hrať, tvoriť a objavovať — zatiaľ čo rodičia v pokoji popíjajú lahodnú kávu alebo matchu.",
+      p1: "Pastelkovo je viac než len detský kútik. Je to malý svet plný farieb, kde sa deti môžu hrať, tvoriť a objavovať - zatiaľ čo rodičia v pokoji popíjajú lahodnú kávu alebo matchu.",
       p2: "Náš priestor sme navrhli s láskou: drevené prvky, jemné pastelové tóny, ihrisko s kĺzačkou, balónovým bazénom a kreatívnymi zónami.",
       bullets: [
         "Celodenná starostlivosť pre deti od 1 do 8 rokov",
@@ -62,7 +62,7 @@ export const translations = {
       rules: [
         "Za dieťa zodpovedá dospelá osoba, ktorá je prítomná počas celej doby návštevy.",
         "Pri chorobe alebo príznakoch ochorenia vstup nie je možný.",
-        "Vstup len bez topánok — používame ponožky alebo papučky.",
+        "Vstup len bez topánok - používame ponožky alebo papučky.",
         "Jedlo a pitie konzumujeme len v určenej časti (kaviareň).",
         "Rodič zodpovedá za vlastné hračky.",
         "Personál si vyhradzuje právo zasiahnuť v prípade porušenia pravidiel.",
@@ -71,7 +71,7 @@ export const translations = {
     birthdays: {
       kicker: "Oslavy & Eventy",
       title: "Narodeniny v Pastelkove",
-      subtitle: "Special Day od 155 € — max. 6 detí na turnuse.",
+      subtitle: "Special Day od 155 € - max. 6 detí na turnuse.",
       includes_title: "V balíčku nájdete:",
       includes: [
         "Maľovanie na tvár",
@@ -81,7 +81,8 @@ export const translations = {
         "Narodeninová torta",
       ],
       summer_title: "Letný Pastelkáčik",
-      summer_text: "Denný letný tábor 8:00 – 16:00. Celodenná strava, vonkajšie aktivity, hry, kreatívne tvorenie, hudba a tanec.",
+      summer_text:
+        "Denný letný tábor 8:00 – 16:00. Celodenná strava, vonkajšie aktivity, hry, kreatívne tvorenie, hudba a tanec.",
       cta: "Mám záujem",
     },
     babysitting: {
@@ -104,7 +105,7 @@ export const translations = {
     reservation: {
       kicker: "Rezervácia",
       title: "Rezervujte si návštevu",
-      subtitle: "Vyplňte krátky formulár — ozveme sa vám čo najskôr.",
+      subtitle: "Vyplňte krátky formulár - ozveme sa vám čo najskôr.",
       name: "Meno a priezvisko",
       phone: "Telefón",
       email: "Email (voliteľné)",
@@ -114,7 +115,11 @@ export const translations = {
       duration_options: { "1.5h": "1.5 hodiny", "3h": "3 hodiny" },
       children: "Počet detí",
       occasion: "Príležitosť",
-      occasion_options: { visit: "Bežná návšteva", birthday: "Oslava narodenín", event: "Iný event" },
+      occasion_options: {
+        visit: "Bežná návšteva",
+        birthday: "Oslava narodenín",
+        event: "Iný event",
+      },
       note: "Poznámka",
       submit: "Odoslať rezerváciu",
       success: "Ďakujeme! Vašu rezerváciu sme prijali.",
@@ -165,7 +170,7 @@ export const translations = {
     about: {
       kicker: "About",
       title: "A pastel haven for tiny explorers & rested parents.",
-      p1: "Pastelkovo is more than a play corner. It's a small world full of colours where kids play, create and discover — while parents enjoy a peaceful cup of coffee or matcha.",
+      p1: "Pastelkovo is more than a play corner. It's a small world full of colours where kids play, create and discover - while parents enjoy a peaceful cup of coffee or matcha.",
       p2: "Our space is designed with love: warm wood, soft pastels, a slide, a ball pit and dedicated creative zones.",
       bullets: [
         "All-day care for children aged 1 to 8",
@@ -206,7 +211,7 @@ export const translations = {
       rules: [
         "Children must be accompanied by a responsible adult at all times.",
         "Entry is not allowed for sick children or those with symptoms.",
-        "Shoes off — socks or slippers only.",
+        "Shoes off - socks or slippers only.",
         "Food and drink only in the cafe area.",
         "Parents are responsible for personal toys.",
         "Staff may intervene if rules are broken.",
@@ -215,7 +220,7 @@ export const translations = {
     birthdays: {
       kicker: "Parties & Events",
       title: "Birthdays at Pastelkovo",
-      subtitle: "Special Day from €155 — max 6 children per session.",
+      subtitle: "Special Day from €155 - max 6 children per session.",
       includes_title: "Included in the package:",
       includes: [
         "Face painting",
@@ -225,7 +230,8 @@ export const translations = {
         "Birthday cake",
       ],
       summer_title: "Summer Pastelkáčik",
-      summer_text: "Daily summer camp 8:00 – 16:00. Full-day meals, outdoor play, games, crafts, music and dance.",
+      summer_text:
+        "Daily summer camp 8:00 – 16:00. Full-day meals, outdoor play, games, crafts, music and dance.",
       cta: "I'm interested",
     },
     babysitting: {
@@ -248,7 +254,7 @@ export const translations = {
     reservation: {
       kicker: "Reservation",
       title: "Reserve your visit",
-      subtitle: "Fill in this short form — we'll get back to you soon.",
+      subtitle: "Fill in this short form - we'll get back to you soon.",
       name: "Full name",
       phone: "Phone",
       email: "Email (optional)",
@@ -258,7 +264,11 @@ export const translations = {
       duration_options: { "1.5h": "1.5 hours", "3h": "3 hours" },
       children: "Number of children",
       occasion: "Occasion",
-      occasion_options: { visit: "Regular visit", birthday: "Birthday party", event: "Other event" },
+      occasion_options: {
+        visit: "Regular visit",
+        birthday: "Birthday party",
+        event: "Other event",
+      },
       note: "Note",
       submit: "Send reservation",
       success: "Thanks! We've received your reservation.",

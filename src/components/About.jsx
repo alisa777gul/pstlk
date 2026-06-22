@@ -38,8 +38,8 @@ const About = ({ t }) => {
 
           <ul className="mt-7 space-y-3">
             {t.about.bullets.map((b, i) => (
-              <li key={i} className="flex items-start gap-3">
-                <span className="mt-1 inline-flex items-center justify-center w-6 h-6 rounded-full bg-[#F4B8C1] text-[#2D3142] flex-shrink-0">
+              <li key={i} className="flex items-center   gap-3">
+                <span className="  inline-flex items-center justify-center w-6 h-6 rounded-full bg-[#F4B8C1] text-[#2D3142] flex-shrink-0">
                   <Check className="w-3.5 h-3.5" />
                 </span>
                 <span className="text-[#2D3142] font-semibold">{b}</span>
