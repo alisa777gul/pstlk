@@ -3,7 +3,7 @@ import { Check } from "lucide-react";
 
 const About = ({ t }) => {
   return (
-    <section id="about" className="py-14 sm:py-20 lg:py-32 bg-[#FFF8F3]">
+    <section id="about" className="pt-0 pb-14 sm:pb-20 lg:pb-32 bg-[#FFF8F3]">
       <div className="max-w-7xl mx-auto px-6 lg:px-10 grid lg:grid-cols-12 gap-10 lg:gap-12 items-start">
         <div className="lg:col-span-5 relative">
           <div className="grid grid-cols-2 gap-3 sm:gap-4">
@@ -29,8 +29,12 @@ const About = ({ t }) => {
           <h2 className="font-display text-3xl sm:text-5xl lg:text-6xl font-bold leading-tight mt-4 text-[#2D3142]">
             {t.about.title}
           </h2>
-          <p className="mt-5 text-base sm:text-lg text-[#5C6173] leading-relaxed">{t.about.p1}</p>
-          <p className="mt-3 text-base sm:text-lg text-[#5C6173] leading-relaxed">{t.about.p2}</p>
+          <p className="mt-5 text-base sm:text-lg text-[#5C6173] leading-relaxed">
+            {t.about.p1}
+          </p>
+          <p className="mt-3 text-base sm:text-lg text-[#5C6173] leading-relaxed">
+            {t.about.p2}
+          </p>
 
           <ul className="mt-7 space-y-3">
             {t.about.bullets.map((b, i) => (

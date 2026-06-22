@@ -4,7 +4,10 @@ import { Baby, Phone, Sparkles, Check } from "lucide-react";
 const Babysitting = ({ t }) => {
   const b = t.babysitting;
   return (
-    <section id="babysitting" className="py-14 sm:py-20 lg:py-24 bg-[#FFF8F3]">
+    <section
+      id="babysitting"
+      className="pt-0 pb-14  sm:pb-20 lg: pb-24 bg-[#FFF8F3]"
+    >
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
         <div className="relative rounded-[2rem] sm:rounded-[3rem] overflow-hidden bg-gradient-to-br from-[#CDE4F1] via-[#FFF8F3] to-[#FAD4D8] p-7 sm:p-10 lg:p-16 shadow-soft">
           {/* novinka tag */}
